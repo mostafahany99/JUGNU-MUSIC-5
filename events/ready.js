@@ -4,7 +4,7 @@ const client = require("../index");
 client.on("ready", async () => {
   console.log(`${client.user.username} Is Online`);
   client.user.setActivity({
-    name: `$help`,
+    name: `-help`,
     type: ActivityType.Watching,
   });
 
